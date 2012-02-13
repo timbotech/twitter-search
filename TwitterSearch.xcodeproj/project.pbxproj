@@ -22,13 +22,13 @@
 		222BB61014E92DCF0094998E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		222BB61214E92DCF0094998E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		222BB61414E92DCF0094998E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		222BB61814E92DCF0094998E /* TwitterSearch-Info.plist */ = {isa = PBXFileReference; path = "TwitterSearch-Info.plist"; sourceTree = "<group>"; };
+		222BB61814E92DCF0094998E /* TwitterSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterSearch-Info.plist"; sourceTree = "<group>"; };
 		222BB61A14E92DCF0094998E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		222BB61C14E92DCF0094998E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		222BB61E14E92DCF0094998E /* TwitterSearch-Prefix.pch */ = {isa = PBXFileReference; path = "TwitterSearch-Prefix.pch"; sourceTree = "<group>"; };
-		222BB61F14E92DCF0094998E /* TwitterSearchAppDelegate.h */ = {isa = PBXFileReference; path = TwitterSearchAppDelegate.h; sourceTree = "<group>"; };
+		222BB61E14E92DCF0094998E /* TwitterSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterSearch-Prefix.pch"; sourceTree = "<group>"; };
+		222BB61F14E92DCF0094998E /* TwitterSearchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwitterSearchAppDelegate.h; sourceTree = "<group>"; };
 		222BB62014E92DCF0094998E /* TwitterSearchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterSearchAppDelegate.m; sourceTree = "<group>"; };
-		222BB62214E92DCF0094998E /* TwitterSearchViewController.h */ = {isa = PBXFileReference; path = TwitterSearchViewController.h; sourceTree = "<group>"; };
+		222BB62214E92DCF0094998E /* TwitterSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwitterSearchViewController.h; sourceTree = "<group>"; };
 		222BB62314E92DCF0094998E /* TwitterSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterSearchViewController.m; sourceTree = "<group>"; };
 		222BB62614E92DCF0094998E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TwitterSearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +123,9 @@
 /* Begin PBXProject section */
 		222BB60314E92DCF0094998E /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 222BB60614E92DCF0094998E /* Build configuration list for PBXProject "TwitterSearch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
